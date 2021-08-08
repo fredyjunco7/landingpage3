@@ -176,8 +176,9 @@ img{
         width: 50%;
         height: 100%;
         padding: 3rem;
-        background-color: var(--color-rojo);
+        background-color: white;
         transition: .5s;
+        z-index: 100;
     }
 }
 .nav__item{
