@@ -178,7 +178,7 @@ img{
         padding: 3rem;
         background-color: white;
         transition: .5s;
-        z-index: 2;
+        backdrop-filter: blur(25px);
     }
 }
 .nav__item{
@@ -1778,11 +1778,6 @@ img{
 
 
     .l-header{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: var(--z-fixed);
         background-color: var(--color-oro);
     }
     
@@ -2381,11 +2376,6 @@ img{
 
 
     .l-header{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: var(--z-fixed);
         background-color: var(--color-oro);
     }
     
@@ -2942,11 +2932,6 @@ img{
 
 
     .l-header{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: var(--z-fixed);
         background-color: var(--color-oro);
     }
     
