@@ -178,7 +178,6 @@ img{
         padding: 3rem;
         background-color: var(--color-rojo);
         transition: .5s;
-        backdrop-filter: blur(25px);
     }
 }
 .nav__item{
